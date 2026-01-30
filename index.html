@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Countdown</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Knewave&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Shizuru&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="boxheader">
+            <div id="logo">
+                <img src="axololt.jpg" alt="logo" id="logo-img">
+                <strong>Axolotl Countdown</strong>
+            </div>
+            <div id="setting"><strong>Bạch Trường Hải</strong></div>
+        </div>
+    </header>
+    <div id="bar">
+        <div class="container">
+            <button onclick="onButtonClick(1)">All</button>
+            <button onclick="onButtonClick(2)">All in one Mode</button>
+            <button onclick="onButtonClick(3)">Focus Mode</button>
+        </div>
+        <!-- <div class = "add">
+                <button>Thêm kì thi</button>
+            </div> -->
+    </div>
+    <div class="main">
+        <div class="main-all">
+            <div class="boxfull">
+                <h1>Kì thi chọn HSG cấp Tỉnh Sơn La 2026</h1>
+                <div class="timebox">
+                    <div class="time">
+                        <h2 class="days" data-date="March 15 2026 00:00:00"
+                            style="font-size: 40px; font-family: Knewave;">0
+                        </h2>
+                        <p style="font-family: Nunito;">Days</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-all-in-one">
+            <div class="boxfull">
+                <h1>Kì thi đánh giá năng lực sư phạm Hà Nội 1</h1>
+                <div class="timebox">
+                    <div class="time">
+                        <h2 class="days" data-date="May 23 2026 00:00:00" style="font-size: 40px; font-family: Knewave;"
+                            ;>0
+                        </h2>
+                        <p style="font-family: Nunito;">Days</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-focus">
+            <div class="boxfull">
+                <h1>Kì thi Trung học Phổ Thông Quốc Gia</h1>
+                <div class="timebox">
+                    <div class="time">
+                        <h2 class="days" data-date="June 11 2026 00:00:00"
+                            style="font-size: 40px; font-family: Knewave;">0
+                        </h2>
+                        <p style="font-family: Nunito;">Days</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
