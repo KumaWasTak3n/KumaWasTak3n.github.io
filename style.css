@@ -112,16 +112,16 @@ h1 {
     /* font-family: Knewave; */
 }
 
-/* .main .main-all {
-    display: none;
+.main .main-all {
+    display: block;
 }
 
 .main .main-all-in-one {
-    display: none;
+    display: block;
 }
 
 .main .main-focus {
-    display: none;
+    display: block;
 }
 
 .show-container {
@@ -130,4 +130,4 @@ h1 {
 
 .hide-container {
     display: none;
-} */
+}
